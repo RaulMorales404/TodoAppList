@@ -1,0 +1,43 @@
+﻿@code {
+    [Parameter]
+    public RenderFragment? Title { get; set; }
+
+    [Parameter]
+    public RenderFragment? Body { get; set; }
+
+    [Parameter]
+    public RenderFragment? Footer { get; set; }
+
+    [Parameter]
+    public bool IsVisible { get; set; }
+
+    [Parameter]
+    public EventCallback OnClose { get; set; }
+
+    private string ModalDisplay => IsVisible ? "block" : "none";
+    private string ModalClass => IsVisible ? "modal show" : "modal fade";
+}
+
+<div class="@ModalClass" style="display:@ModalDisplay" tabindex="-1">
+    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 style="color: grey; font-weight: 200; " class="modal-title">@Title</h5>
+                <button type="button" class="btn-close" @onclick="Close"></button>
+            </div>
+            <div class="modal-body">
+                @Body
+            </div>
+            <div class="modal-footer">
+                @Footer
+            </div>
+        </div>
+    </div>
+</div>
+
+@code {
+    private void Close()
+    {
+        OnClose.InvokeAsync(null);
+    }
+}
