@@ -14,6 +14,27 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" rel="stylesheet" />
     <!-- Toastr CSS -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css" rel="stylesheet" />
+    <script src="https://www.gstatic.com/firebasejs/9.6.10/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.6.10/firebase-firestore.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.6.10/firebase-storage.js"></script>
+    <script>// Configuración de Firebase
+        const firebaseConfig = {
+            apiKey: "AIzaSyDXDCnRL4gP1D29beFMFjPofluE4Xmh0Eo",
+            authDomain: "todoap-2fc57.firebaseapp.com",
+            projectId: "todoap-2fc57",
+            storageBucket: "todoap-2fc57.appspot.com",
+            messagingSenderId: "640083651563",
+            appId: "1:640083651563:web:798a8ac67273e318e007a",
+            measurementId: "G-51SEZYSPM9"
+        };
+
+ 
+
+        // Inicializar Firebase
+        const app = firebase.initializeApp(firebaseConfig);
+        const db = firebase.firestore();
+        const storage = firebase.storage();</script>
+
     <!-- Custom Styles -->
     <link href="TodoApp.styles.css" rel="stylesheet" />
     <link rel="icon" type="image/png" href="favicon.png" />
@@ -25,12 +46,15 @@
             box-shadow: none;
             z-index: 3;
         }
-        button.btn.btn-outline-info.btn-lg.mt-2:hover{
+
+        button.btn.btn-outline-info.btn-lg.mt-2:hover {
             color: white;
         }
+
         .modal.show {
             background: rgb(0 0 0 / 30%);
         }
+
         .form-check-input:checked {
             background-color: #000000;
             border-color: #000000;
@@ -90,7 +114,6 @@
             outline: none;
             box-shadow: none;
         }
-         
     </style>
 </head>
 

@@ -9,45 +9,45 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = browser
 build_property.RootNamespace = TodoApp
 build_property.RootNamespace = TodoApp
-build_property.ProjectDir = /Users/macbookpro/Projects/TodoAppList/TodoApp/
+build_property.ProjectDir = /Users/macbookpro/Documents/TodoAppList/TodoApp/
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = /Users/macbookpro/Projects/TodoAppList/TodoApp
+build_property.MSBuildProjectDirectory = /Users/macbookpro/Documents/TodoAppList/TodoApp
 build_property._RazorSourceGeneratorDebug = 
 
-[/Users/macbookpro/Projects/TodoAppList/TodoApp/App.razor]
+[/Users/macbookpro/Documents/TodoAppList/TodoApp/App.razor]
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/macbookpro/Projects/TodoAppList/TodoApp/Pages/Counter.razor]
+[/Users/macbookpro/Documents/TodoAppList/TodoApp/Pages/Counter.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQ291bnRlci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/macbookpro/Projects/TodoAppList/TodoApp/Pages/FetchData.razor]
+[/Users/macbookpro/Documents/TodoAppList/TodoApp/Pages/FetchData.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRmV0Y2hEYXRhLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/macbookpro/Projects/TodoAppList/TodoApp/Pages/Index.razor]
+[/Users/macbookpro/Documents/TodoAppList/TodoApp/Pages/Index.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvSW5kZXgucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/macbookpro/Projects/TodoAppList/TodoApp/Shared/Modal.razor]
+[/Users/macbookpro/Documents/TodoAppList/TodoApp/Shared/Modal.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkL01vZGFsLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/macbookpro/Projects/TodoAppList/TodoApp/Shared/SurveyPrompt.razor]
+[/Users/macbookpro/Documents/TodoAppList/TodoApp/Shared/SurveyPrompt.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkL1N1cnZleVByb21wdC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/macbookpro/Projects/TodoAppList/TodoApp/_Imports.razor]
+[/Users/macbookpro/Documents/TodoAppList/TodoApp/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/macbookpro/Projects/TodoAppList/TodoApp/Shared/MainLayout.razor]
+[/Users/macbookpro/Documents/TodoAppList/TodoApp/Shared/MainLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkL01haW5MYXlvdXQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-kehpue5hes
 
-[/Users/macbookpro/Projects/TodoAppList/TodoApp/Shared/NavMenu.razor]
+[/Users/macbookpro/Documents/TodoAppList/TodoApp/Shared/NavMenu.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkL05hdk1lbnUucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-xowyhx4pd2

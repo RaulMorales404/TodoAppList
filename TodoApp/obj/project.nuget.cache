@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "h9LajU+9P4pwXDkVNUTe7xKzQqX3bNPF4vNUzdCOGsI0HN5w3SoMxilmuefyg5ZfthoiXq+W2nybg1vqzK5mNg==",
+  "dgSpecHash": "cNqjy9Xm5f6n25QguQQWrqMZ4ijY3FTt2d3gT2rqstkumcO73yadEKdvtJbEKqH0lNVT0ilmehEatOzK6XAP7w==",
   "success": true,
-  "projectFilePath": "/Users/macbookpro/Projects/TodoApp/TodoApp/TodoApp.csproj",
+  "projectFilePath": "/Users/macbookpro/Documents/TodoAppList/TodoApp/TodoApp.csproj",
   "expectedPackageFiles": [
     "/Users/macbookpro/.nuget/packages/microsoft.aspnetcore.authorization/7.0.20/microsoft.aspnetcore.authorization.7.0.20.nupkg.sha512",
     "/Users/macbookpro/.nuget/packages/microsoft.aspnetcore.components/7.0.20/microsoft.aspnetcore.components.7.0.20.nupkg.sha512",
